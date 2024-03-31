@@ -1,11 +1,44 @@
+body{
+    background-color: #330a04;
+}
+
 #main_title{
     text-align: center;
+    color: white;
 }
 
 #Btn_calculate{
     margin: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 #boxes_information{
     margin: 5px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+#output_informations{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto; 
+    background-color: #6c1305;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#how{
+    color: white;
+}
+
+.hidden{
+    display: none;
 }

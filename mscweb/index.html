@@ -14,12 +14,23 @@
         <input id="C_value" type="number" placeholder="valor do C">
     </div>
     <br>
-    <button id="Btn_calculate">Calcular</button>
-    <br>
-    <h3 id="delta_value">Delta: </h3>
-    <h3 id="x_one_value">valor do primeiro x:</h3>
-    <h3 id="x_two_value">valor do segundo x:</h3>
-
+    <div id="output_informations">
+        <h3 id="delta_value">Delta: </h3>
+        <h3 id="x_one_value">valor do primeiro x:</h3>
+        <h3 id="x_two_value">valor do segundo x:</h3>
+        <button id="Btn_calculate">Calcular</button>
+    </div>
+    <div id="how" class="hidden">
+        <h2>como calcular essa equação:</h2>
+        <h3>1-encontrar delta:</h3>
+        <p>para encontar o delta usaremos a fórmula: <br> Δ = b2 – 4ac.</p>
+        <p id="delta_formula_exampleone">a fórmula irá ficar: <br> </p>
+        <p id="delta_formula_exampletwo">resolvendo teremos: Δ = </p>
+        <h3>2-calcular baskhara:</h3>
+        <p>para encontar o baskhara usaremos a fórmula: <br> x = -b ± √Δ / 2.a </p>
+        <p id="baskhara_formula_exampleone">a fórmula irá ficar: <br> x = - ± √ / 2. </p>
+        <p id="baskhara_formula_exampletwo">resolvendo teremos: x+ = <br> x- = </p>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
