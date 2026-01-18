@@ -11,8 +11,8 @@ btn_calculate_click.addEventListener("click",
         const delta = (value_B**2 - 4 * value_A * value_C);
         //value x
         var raiz = Math.sqrt(delta);
-        const x_one = (-value_B + raiz / 2 * value_A);
-        const x_two = (-value_B - raiz / 2 * value_A);
+        const x_one = ((-value_B + raiz) / (2 * value_A));
+        const x_two = ((-value_B - raiz) / (2 * value_A));
         //innerhtml of values and examples
         document.getElementById("delta_value").innerHTML="Delta: " + delta;
         document.getElementById("x_one_value").innerHTML="valor do primeiro x: x+ = " + x_one;

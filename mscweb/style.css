@@ -1,10 +1,24 @@
 body{
-    background-color: #330a04;
+    background-color: #0CABA8;
 }
 
 #main_title{
     text-align: center;
     color: white;
+}
+
+#A_value{
+    border-radius: 3px;
+    border-bottom: #0CABA8;
+    border: none;
+}
+#B_value{
+    border-radius: 3px;
+    border: none;
+}
+#C_value{
+    border-radius: 3px;
+    border: none;
 }
 
 #Btn_calculate{
@@ -26,9 +40,9 @@ body{
     text-align: center;
     padding: 10px;
     margin: 10px auto; 
-    background-color: #6c1305;
+    background-color: #015958;
     color: white;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 5px black;
     width: 300px;
     height: 300px;
     overflow: hidden;
